@@ -1,0 +1,322 @@
+<html>
+<head>
+<title>main.py</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #808080;}
+.s1 { color: #a9b7c6;}
+.s2 { color: #6a8759;}
+.s3 { color: #cc7832;}
+.s4 { color: #6897bb;}
+</style>
+</head>
+<body bgcolor="#2b2b2b">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+main.py</font>
+</center></td></tr></table>
+<pre><span class="s0"># This is a sample Python script.</span>
+
+<span class="s0"># Press Shift+F10 to execute it or replace it with your code.</span>
+<span class="s0"># Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.</span>
+
+<span class="s0">#Programming for Beginners Using Python</span>
+
+<span class="s0">#coding exercise 1.10</span>
+
+<span class="s1">character_job = </span><span class="s2">&quot;pirate&quot;</span>
+<span class="s1">character_ride = </span><span class="s2">&quot;ship&quot;</span>
+<span class="s1">character_souvenir = </span><span class="s2">&quot;gold&quot;</span>
+<span class="s1">character_pet = </span><span class="s2">&quot;parrot&quot;</span>
+
+<span class="s1">print(</span><span class="s2">&quot;There was once a &quot; </span><span class="s1">+ character_job + </span><span class="s2">&quot;who loved adventure&quot;</span><span class="s1">)</span>
+<span class="s1">print(</span><span class="s2">&quot;The &quot; </span><span class="s1">+ character_job + </span><span class="s2">&quot; would take her &quot; </span><span class="s1">+ character_ride + </span><span class="s2">&quot; to unknown places.&quot;</span><span class="s1">)</span>
+<span class="s1">print(</span><span class="s2">&quot;She brings home a lot of &quot; </span><span class="s1">+ character_souvenir + </span><span class="s2">&quot;.&quot;</span><span class="s1">)</span>
+<span class="s1">print(</span><span class="s2">&quot;Then she goes home to her pet &quot; </span><span class="s1">+ character_pet + </span><span class="s2">&quot;, Chuckles&quot;</span><span class="s1">)</span>
+
+<span class="s0">#coding exercise 1.14</span>
+
+<span class="s1">print(</span><span class="s2">&quot;Roses are red, viiolets are blue&quot;</span><span class="s1">)</span>
+<span class="s3">if </span><span class="s4">10 </span><span class="s1">&gt; </span><span class="s4">7</span><span class="s1">:</span>
+    <span class="s1">print(</span><span class="s2">&quot;Ten is greater than seven!&quot;</span><span class="s1">)</span>
+<span class="s3">if </span><span class="s4">16 </span><span class="s1">&lt; </span><span class="s4">42</span><span class="s1">:</span>
+    <span class="s1">print(</span><span class="s2">&quot;Sixteen is less than forty-two!&quot;</span><span class="s1">)</span>
+<span class="s1">print(</span><span class="s2">&quot;A long time ago, in a galaxy far, far, away.....&quot;</span><span class="s1">)</span>
+
+<span class="s0">#codiing exercise 2.3</span>
+
+<span class="s3">def </span><span class="s1">nice_day(name):</span>
+    <span class="s1">print(</span><span class="s2">&quot;Have a nice day, &quot; </span><span class="s1">+ name + </span><span class="s2">&quot;!&quot;</span><span class="s1">)</span>
+
+<span class="s1">nice_day(</span><span class="s2">&quot;Marissa&quot;</span><span class="s1">)</span>
+
+<span class="s0">#coding exercise 2.7</span>
+
+<span class="s1">name = input(</span><span class="s2">&quot;Enter your name: &quot;</span><span class="s1">)</span>
+<span class="s1">age = input(</span><span class="s2">&quot;Enter your age: &quot;</span><span class="s1">)</span>
+<span class="s1">favorite_color = input(</span><span class="s2">&quot;Enter your favorite color: &quot;</span><span class="s1">)</span>
+<span class="s1">favorite_movie = input(</span><span class="s2">&quot;Enter your favorite movie: &quot;</span><span class="s1">)</span>
+<span class="s1">mobile_number = int(input(</span><span class="s2">&quot;Enter your 11-digit mobile number: &quot;</span><span class="s1">))</span>
+<span class="s1">motto_in_life = input(</span><span class="s2">&quot;Enter your motto in life: &quot;</span><span class="s1">)</span>
+
+<span class="s0">#coding exercise 2.11</span>
+
+<span class="s1">print(</span><span class="s4">10</span><span class="s1">&gt;</span><span class="s4">7</span><span class="s1">)</span>
+<span class="s1">print(str(</span><span class="s4">73911</span><span class="s1">))</span>
+<span class="s1">print(tuple(</span><span class="s2">&quot;Thank God it's Friday&quot;</span><span class="s1">))</span>
+<span class="s1">print(float(</span><span class="s4">4302</span><span class="s1">))</span>
+<span class="s1">print(int(</span><span class="s4">3299.35640</span><span class="s1">))</span>
+
+<span class="s0">#coding exercise 3.4</span>
+
+<span class="s3">class </span><span class="s1">Customers:</span>
+    <span class="s1">greeting = </span><span class="s2">&quot;Welcome to Coffee Palace!&quot;</span>
+<span class="s1">c_l = Customers()</span>
+<span class="s1">c_l.name = </span><span class="s2">&quot;Samirah&quot;</span>
+<span class="s1">c_l.beverage = </span><span class="s2">&quot;Iced caffe latte&quot;</span>
+<span class="s1">c_l.food = </span><span class="s2">&quot;Cinnamon roll&quot;</span>
+<span class="s1">c_l.total = </span><span class="s4">225</span>
+
+<span class="s1">c_2 = Customers()</span>
+<span class="s1">c_2.name = </span><span class="s2">&quot;Jerry&quot;</span>
+<span class="s1">c_2.beverage = </span><span class="s2">&quot;Caramel macchiato&quot;</span>
+<span class="s1">c_2.food = </span><span class="s2">&quot;Glazed doughnut&quot;</span>
+<span class="s1">c_2.total = </span><span class="s4">230</span>
+
+<span class="s1">print(Customers.greeting)</span>
+<span class="s1">print(c_l.beverage)</span>
+<span class="s1">print(c_2.food)</span>
+
+<span class="s0">#coding exercise 3.8</span>
+
+<span class="s1">print(</span><span class="s4">217 </span><span class="s1">* </span><span class="s4">6</span><span class="s1">)</span>
+<span class="s1">print(</span><span class="s4">600 </span><span class="s1">+ </span><span class="s4">35234</span><span class="s1">)</span>
+<span class="s1">print(</span><span class="s4">67 </span><span class="s1">// </span><span class="s4">12</span><span class="s1">)</span>
+<span class="s1">print(</span><span class="s4">56329 </span><span class="s1">% </span><span class="s4">982</span><span class="s1">)</span>
+<span class="s1">print(</span><span class="s4">34 </span><span class="s1">** </span><span class="s4">5</span><span class="s1">)</span>
+
+<span class="s0">#coding exercise 3.12</span>
+
+<span class="s1">my_age = </span><span class="s4">22</span>
+<span class="s1">mom_age = </span><span class="s4">61</span>
+<span class="s1">sister_age = </span><span class="s4">29</span>
+
+<span class="s1">print(mom_age &lt; sister_age </span><span class="s3">and </span><span class="s1">my_age == </span><span class="s4">22</span><span class="s1">)</span>
+<span class="s1">print(mom_age == </span><span class="s4">61</span><span class="s1">)</span>
+<span class="s1">print(mom_age &gt; </span><span class="s4">34 </span><span class="s3">or </span><span class="s1">sister_age == </span><span class="s4">22</span><span class="s1">)</span>
+<span class="s1">print(mom_age &gt;= </span><span class="s4">54</span><span class="s1">)</span>
+<span class="s1">print(</span><span class="s3">not</span><span class="s1">(sister_age &lt;= </span><span class="s4">400 </span><span class="s3">and </span><span class="s1">my_age == </span><span class="s4">22</span><span class="s1">))</span>
+
+<span class="s0">#coding exercise 4.4</span>
+
+<span class="s1">x = </span><span class="s4">332</span>
+<span class="s1">y = </span><span class="s4">2031</span>
+<span class="s3">if </span><span class="s1">x &gt;= y:</span>
+    <span class="s1">print(</span><span class="s2">&quot;x is greater than or equal to y.&quot;</span><span class="s1">)</span>
+<span class="s3">elif </span><span class="s1">x == y:</span>
+    <span class="s1">print(</span><span class="s2">&quot;x is equal to y.&quot;</span><span class="s1">)</span>
+<span class="s3">else</span><span class="s1">:</span>
+    <span class="s1">print(</span><span class="s2">&quot;x is less than y.&quot;</span><span class="s1">)</span>
+
+
+<span class="s0">#coding exercise 4.8</span>
+
+<span class="s1">furniture = [</span><span class="s2">&quot;table&quot;</span><span class="s3">, </span><span class="s2">&quot;chair&quot;</span><span class="s3">, </span><span class="s2">&quot;cabinet&quot;</span><span class="s3">, </span><span class="s2">&quot;desk&quot;</span><span class="s3">, </span><span class="s2">&quot;couch&quot;</span><span class="s1">]</span>
+<span class="s3">for </span><span class="s1">x </span><span class="s3">in </span><span class="s1">furniture:</span>
+    <span class="s3">if </span><span class="s1">x == </span><span class="s2">&quot;cabinet&quot;</span><span class="s1">:</span>
+        <span class="s3">continue</span>
+    <span class="s1">print(x)</span>
+
+
+<span class="s0">#-----------------------------------------------------</span>
+
+<span class="s0">#Programming for Intermediate Users Using Python</span>
+
+<span class="s0">#coding exercise 1.5</span>
+
+<span class="s3">class </span><span class="s1">Customers:</span>
+    <span class="s1">greeting = </span><span class="s2">&quot;Welcome to Coffee Palace!&quot;</span>
+
+    <span class="s3">def </span><span class="s1">__init__(self</span><span class="s3">, </span><span class="s1">name</span><span class="s3">, </span><span class="s1">beverage</span><span class="s3">, </span><span class="s1">food</span><span class="s3">, </span><span class="s1">total):</span>
+        <span class="s1">self.name = name</span>
+        <span class="s1">self.beverage = beverage</span>
+        <span class="s1">self.food = food</span>
+        <span class="s1">self.total = total</span>
+
+
+<span class="s1">c_1 = Customers(</span><span class="s2">&quot;Nate&quot;</span><span class="s3">, </span><span class="s2">&quot;Espresso&quot;</span><span class="s3">, </span><span class="s2">&quot;Pastrami on rye&quot;</span><span class="s3">, </span><span class="s4">220</span><span class="s1">)</span>
+<span class="s1">c_2 = Customers(</span><span class="s2">&quot;Elaine&quot;</span><span class="s3">, </span><span class="s2">&quot;Strawberry frappuccino&quot;</span><span class="s3">, </span><span class="s2">&quot;Tuna wrap&quot;</span><span class="s3">, </span><span class="s4">270</span><span class="s1">)</span>
+<span class="s1">c_3 = Customers(</span><span class="s2">&quot;Samirah&quot;</span><span class="s3">, </span><span class="s2">&quot;Iced caffe latte&quot;</span><span class="s3">, </span><span class="s2">&quot;Cinnamon roll&quot;</span><span class="s3">, </span><span class="s4">225</span><span class="s1">)</span>
+<span class="s1">c_4 = Customers(</span><span class="s2">&quot;Jerry&quot;</span><span class="s3">, </span><span class="s2">&quot;Caramel macchiato&quot;</span><span class="s3">, </span><span class="s2">&quot;Glazed doughnut&quot;</span><span class="s3">, </span><span class="s4">230</span><span class="s1">)</span>
+<span class="s1">c_5 = Customers(</span><span class="s2">&quot;Paz&quot;</span><span class="s3">, </span><span class="s2">&quot;Iced tea&quot;</span><span class="s3">, </span><span class="s2">&quot;Blueberry pancakes&quot;</span><span class="s3">, </span><span class="s4">315</span><span class="s1">)</span>
+
+<span class="s1">print(Customers.greeting)</span>
+<span class="s1">print(c_2.name)</span>
+<span class="s1">print(c_2.beverage)</span>
+<span class="s1">print(c_2.food)</span>
+<span class="s1">print(c_2.total)</span>
+<span class="s1">print(c_4.name)</span>
+<span class="s1">print(c_4.beverage)</span>
+<span class="s1">print(c_4.food)</span>
+<span class="s1">print(c_4.total)</span>
+
+<span class="s0">#coding exercise 1.9</span>
+
+<span class="s3">class </span><span class="s1">ClubMembers:</span>
+    <span class="s3">def </span><span class="s1">__init__(self</span><span class="s3">, </span><span class="s1">birthday: object</span><span class="s3">, </span><span class="s1">age: object</span><span class="s3">, </span><span class="s1">favorite_food: object</span><span class="s3">, </span><span class="s1">goal: object) -&gt; object:</span>
+        <span class="s1">self.name = name</span>
+        <span class="s1">self.birthday = birthday</span>
+        <span class="s1">self.age = age</span>
+        <span class="s1">self.favorite_food = favorite_food</span>
+        <span class="s1">self.goal = goal</span>
+
+    <span class="s3">def </span><span class="s1">display1(self):</span>
+        <span class="s1">print(</span><span class="s2">&quot;Name:&quot;</span><span class="s3">, </span><span class="s1">self.name)</span>
+        <span class="s1">print(</span><span class="s2">&quot;Birthday:&quot;</span><span class="s3">, </span><span class="s1">self.birthday)</span>
+        <span class="s1">print(</span><span class="s2">&quot;Age:&quot;</span><span class="s3">, </span><span class="s1">self.age)</span>
+        <span class="s1">print(</span><span class="s2">&quot;Favorite food:&quot;</span><span class="s3">, </span><span class="s1">self.favorite_food)</span>
+        <span class="s1">print(</span><span class="s2">&quot;Goal:&quot;</span><span class="s3">, </span><span class="s1">self.goal)</span>
+
+<span class="s3">class </span><span class="s1">ClubOfficers(ClubMembers):</span>
+    <span class="s0">#__init__ method of Admin subclass overrides __lnIt_method of User base class</span>
+
+    <span class="s3">def </span><span class="s1">__init__(self</span><span class="s3">, </span><span class="s1">name</span><span class="s3">, </span><span class="s1">birthday</span><span class="s3">, </span><span class="s1">age</span><span class="s3">, </span><span class="s1">favorite_food</span><span class="s3">, </span><span class="s1">goal</span><span class="s3">, </span><span class="s1">position):</span>
+        <span class="s1">self.position = position</span>
+        <span class="s1">ClubMembers.__init__(self</span><span class="s3">, </span><span class="s1">name</span><span class="s3">, </span><span class="s1">birthday</span><span class="s3">, </span><span class="s1">age</span><span class="s3">, </span><span class="s1">favorite_food</span><span class="s3">, </span><span class="s1">goal)</span>
+
+    <span class="s3">def </span><span class="s1">display2(self):</span>
+        <span class="s1">print(</span><span class="s2">&quot;Name:&quot;</span><span class="s3">, </span><span class="s1">self.name)</span>
+        <span class="s1">print(</span><span class="s2">&quot;Birthday:&quot;</span><span class="s3">, </span><span class="s1">self.birthday)</span>
+        <span class="s1">print(</span><span class="s2">&quot;Age:&quot;</span><span class="s3">, </span><span class="s1">self.age)</span>
+        <span class="s1">print(</span><span class="s2">&quot;Favorite food:&quot;</span><span class="s3">, </span><span class="s1">self.favorite_food)</span>
+        <span class="s1">print(</span><span class="s2">&quot;Goal:&quot;</span><span class="s3">, </span><span class="s1">self.goal)</span>
+        <span class="s1">print(</span><span class="s2">&quot;Position:&quot;</span><span class="s3">, </span><span class="s1">self.position)</span>
+
+<span class="s1">m_1 = ClubMembers(</span><span class="s2">&quot;Tom&quot;</span><span class="s3">, </span><span class="s2">&quot;January 16&quot;</span><span class="s3">, </span><span class="s4">14</span><span class="s3">, </span><span class="s2">'Ice cream'</span><span class="s3">, </span><span class="s2">&quot;To be happy&quot;</span><span class="s1">)</span>
+<span class="s1">o_4 = ClubOfficers(</span><span class="s2">&quot;Vera&quot;</span><span class="s3">, </span><span class="s2">'June 22'</span><span class="s3">, </span><span class="s4">16</span><span class="s3">, </span><span class="s2">'Beef stroganoff'</span><span class="s3">, </span><span class="s2">&quot;To be the world's greatest chef&quot;</span><span class="s3">, </span><span class="s2">'Treasurer'</span><span class="s1">)</span>
+
+<span class="s1">m_1.display1()</span>
+<span class="s1">o_4.display2()</span>
+
+<span class="s0">#coding exercise 2.4</span>
+
+<span class="s1">flavors = [</span><span class="s2">&quot;boots&quot;</span><span class="s3">, </span><span class="s2">&quot;chocolate&quot;</span><span class="s3">, </span><span class="s2">&quot;strawberry&quot;</span><span class="s3">, </span><span class="s2">&quot;cookies n' cream&quot;</span><span class="s3">, </span><span class="s2">&quot;bubblegum&quot;</span><span class="s1">]</span>
+<span class="s1">toppings = [</span><span class="s2">&quot;almonds&quot;</span><span class="s3">, </span><span class="s2">&quot;banana slices&quot;</span><span class="s3">, </span><span class="s2">&quot;chocolate syrup&quot;</span><span class="s3">, </span><span class="s2">&quot;caramel syrup&quot;</span><span class="s3">, </span><span class="s2">&quot;white chocolate chips&quot;</span><span class="s1">]</span>
+<span class="s1">ice_cream = dict(zip(flavors</span><span class="s3">, </span><span class="s1">toppings))</span>
+<span class="s1">print(ice_cream)</span>
+
+<span class="s1">ice_cream[</span><span class="s2">&quot;chocolate&quot;</span><span class="s1">] = </span><span class="s2">&quot;blueberries&quot;</span>
+<span class="s1">ice_cream.update({</span><span class="s2">&quot;matcha&quot;</span><span class="s1">: </span><span class="s2">&quot;pistachios&quot;</span><span class="s3">, </span><span class="s2">&quot;ube&quot;</span><span class="s1">: </span><span class="s2">&quot;mango slices&quot;</span><span class="s1">})</span>
+<span class="s1">print(ice_cream)</span>
+
+<span class="s0">#coding exercise 2.8</span>
+
+<span class="s1">tryout_result = {</span><span class="s2">&quot;Carl&quot;</span><span class="s1">: </span><span class="s2">&quot;passed&quot;</span><span class="s3">, </span><span class="s2">&quot;Quentin&quot;</span><span class="s1">: </span><span class="s2">&quot;failed&quot;</span><span class="s3">, </span><span class="s2">&quot;John Y.&quot;</span><span class="s1">: </span><span class="s2">&quot;passed&quot;</span><span class="s3">, </span><span class="s2">&quot;Peter&quot;</span><span class="s1">: </span><span class="s2">&quot;failed&quot;</span><span class="s3">, </span><span class="s2">&quot;Max T.&quot;</span><span class="s1">: </span><span class="s2">&quot;passed&quot;</span><span class="s3">, </span><span class="s2">&quot;Joseph&quot;</span><span class="s1">: </span><span class="s2">&quot;passed&quot;</span><span class="s3">, </span><span class="s2">&quot;Jone&quot;</span><span class="s1">: </span><span class="s2">&quot;failed&quot;</span><span class="s3">, </span><span class="s2">&quot;Jorge&quot;</span><span class="s1">: </span><span class="s2">&quot;failed&quot;</span><span class="s3">, </span><span class="s2">&quot;George&quot;</span><span class="s1">: </span><span class="s2">&quot;passed&quot;</span><span class="s3">, </span><span class="s2">&quot;Ben&quot;</span><span class="s1">: </span><span class="s2">&quot;passed&quot;</span><span class="s3">, </span><span class="s2">&quot;Jerome&quot;</span><span class="s1">: </span><span class="s2">&quot;passed&quot;</span><span class="s3">, </span><span class="s2">&quot;Rick&quot;</span><span class="s1">: </span><span class="s2">&quot;failed&quot;</span><span class="s3">, </span><span class="s2">&quot;Max G.&quot;</span><span class="s1">: </span><span class="s2">&quot;failed&quot;</span><span class="s3">, </span><span class="s2">&quot;John P.&quot;</span><span class="s1">: </span><span class="s2">&quot;failed&quot;</span><span class="s3">, </span><span class="s2">&quot;Vince&quot;</span><span class="s1">: </span><span class="s2">&quot;passed&quot;</span><span class="s1">}</span>
+
+<span class="s1">print(tryout_result.get(</span><span class="s2">&quot;Jorge&quot;</span><span class="s1">))</span>
+
+<span class="s0">#coding exercise 3.4</span>
+
+<span class="s1">f = open(</span><span class="s2">&quot;pythonessay.txt&quot;</span><span class="s3">, </span><span class="s2">&quot;w&quot;</span><span class="s1">)</span>
+<span class="s1">f.write(</span><span class="s2">&quot;I like Python because it's very interesting.&quot;</span><span class="s1">)</span>
+<span class="s1">f = open(</span><span class="s2">&quot;pythonessay.txt&quot;</span><span class="s3">, </span><span class="s2">&quot;a&quot;</span><span class="s1">)</span>
+<span class="s1">f.write(</span><span class="s2">&quot;</span><span class="s3">\n</span><span class="s2">I plan to learn data visualization.&quot;</span><span class="s1">)</span>
+<span class="s1">f.write(</span><span class="s2">&quot;</span><span class="s3">\n</span><span class="s2">I want to work in the field of data science.&quot;</span><span class="s1">)</span>
+<span class="s1">f.write(</span><span class="s2">&quot;</span><span class="s3">\n</span><span class="s2">I plan to make a better world for the future generation.&quot;</span><span class="s1">)</span>
+<span class="s1">f = open(</span><span class="s2">&quot;pythonessay.txt&quot;</span><span class="s3">, </span><span class="s2">&quot;r&quot;</span><span class="s1">)</span>
+<span class="s1">f.close()</span>
+
+<span class="s0">#coding exercise 3.8</span>
+<span class="s0">#Solution Step1</span>
+<span class="s1">f = open(</span><span class="s2">&quot;pythonessay.txt&quot;</span><span class="s3">, </span><span class="s2">&quot;r&quot;</span><span class="s1">)</span>
+
+<span class="s0">#Solution Step2</span>
+<span class="s1">f = open(</span><span class="s2">&quot;pythonessay.txt&quot;</span><span class="s3">, </span><span class="s2">&quot;r&quot;</span><span class="s1">)</span>
+<span class="s1">print(f.read())</span>
+
+<span class="s0">#Solution Step3</span>
+<span class="s1">f = open(</span><span class="s2">&quot;pythonessay.txt&quot;</span><span class="s3">, </span><span class="s2">&quot;r&quot;</span><span class="s1">)</span>
+<span class="s1">print(f.readline())</span>
+
+<span class="s0">#Solution Step4</span>
+<span class="s1">f = open(</span><span class="s2">&quot;pythonessay.txt&quot;</span><span class="s3">, </span><span class="s2">&quot;r&quot;</span><span class="s1">)</span>
+<span class="s3">for </span><span class="s1">x </span><span class="s3">in </span><span class="s1">f:</span>
+    <span class="s1">print(x)</span>
+
+<span class="s0">#Solution Step5</span>
+<span class="s3">import </span><span class="s1">os</span>
+<span class="s3">if </span><span class="s1">os.path.exist(</span><span class="s2">&quot;pythonessay.txt&quot;</span><span class="s1">)</span>
+    <span class="s1">os.remove(</span><span class="s2">&quot;pythonessay.txt&quot;</span><span class="s1">)</span>
+<span class="s3">else</span><span class="s1">:</span>
+    <span class="s1">print(</span><span class="s2">&quot;The file does not exist&quot;</span><span class="s1">)</span>
+
+<span class="s0">#coding exercise 3.12</span>
+
+<span class="s0">#1</span>
+<span class="s1">x = </span><span class="s4">500</span>
+<span class="s3">if </span><span class="s1">x &gt; </span><span class="s4">100</span><span class="s1">:</span>
+    <span class="s3">raise </span><span class="s1">Exception(</span><span class="s2">&quot;This code will result in an error if x is bigger than 100&quot;</span><span class="s1">)</span>
+
+<span class="s0">#2</span>
+<span class="s3">try</span><span class="s1">:</span>
+    <span class="s1">print(variable_1)</span>
+<span class="s3">except</span><span class="s1">:</span>
+    <span class="s1">print(</span><span class="s2">&quot;variable_1 is not yet defined&quot;</span><span class="s1">)</span>
+
+<span class="s0">#3</span>
+<span class="s3">for </span><span class="s1">ii </span><span class="s3">in </span><span class="s1">range(</span><span class="s4">6</span><span class="s1">):</span>
+    <span class="s1">print(</span><span class="s2">&quot;I'm so happy!&quot;</span><span class="s1">)</span>
+
+<span class="s0">#4</span>
+<span class="s3">try</span><span class="s1">:</span>
+    <span class="s1">print(</span><span class="s4">12</span><span class="s1">*</span><span class="s4">6</span><span class="s1">)</span>
+<span class="s3">except</span><span class="s1">:</span>
+    <span class="s1">print(</span><span class="s2">&quot;This operation can't be performed.&quot;</span><span class="s1">)</span>
+<span class="s3">else</span><span class="s1">:</span>
+    <span class="s1">print(</span><span class="s2">&quot;This operation can be performed.&quot;</span><span class="s1">)</span>
+
+<span class="s0">#5</span>
+<span class="s1">best_burger = </span><span class="s2">&quot;Burger King&quot;</span>
+<span class="s1">number_2_burger = </span><span class="s2">&quot;McDonald's&quot;</span>
+
+<span class="s3">assert </span><span class="s1">best_burger == </span><span class="s2">&quot;Burger King&quot;</span>
+<span class="s3">assert </span><span class="s1">best_burger == </span><span class="s2">&quot;McDonald's&quot;</span>
+
+<span class="s0">#coding exercise 4.4</span>
+
+
+<span class="s1">f = open(</span><span class="s2">&quot;functionfile.py&quot;</span><span class="s3">, </span><span class="s2">&quot;x&quot;</span><span class="s1">)</span>
+
+<span class="s3">def </span><span class="s1">general_greeting():</span>
+    <span class="s1">print(</span><span class="s2">&quot;Hello, everyone!&quot;</span><span class="s1">)</span>
+
+<span class="s3">def </span><span class="s1">personal_greeting(name):</span>
+    <span class="s1">print(</span><span class="s2">&quot;Hi,&quot; </span><span class="s1">+ name + </span><span class="s2">&quot;!&quot;</span><span class="s1">)</span>
+
+<span class="s3">def </span><span class="s1">your_province(province):</span>
+    <span class="s1">print(</span><span class="s2">&quot;Oh, I heard &quot; </span><span class="s1">+ province + </span><span class="s2">&quot;is a nice place!&quot;</span><span class="s1">)</span>
+
+<span class="s3">def </span><span class="s1">get_Sum(x</span><span class="s3">,</span><span class="s1">y):</span>
+    <span class="s1">print(x+y)</span>
+
+<span class="s3">def </span><span class="s1">get_Diff(x</span><span class="s3">,</span><span class="s1">y):</span>
+    <span class="s1">print(x-y)</span>
+
+<span class="s3">from </span><span class="s1">functionfile </span><span class="s3">import </span><span class="s1">personal_greeting</span>
+<span class="s3">from </span><span class="s1">functionfile </span><span class="s3">import </span><span class="s1">your_province</span>
+
+<span class="s1">personal_greetiing(</span><span class="s2">&quot;Anna&quot;</span><span class="s1">)</span>
+<span class="s1">your_province(</span><span class="s2">&quot;Pampanga&quot;</span><span class="s1">)</span>
+
+<span class="s0">#coding exercise 4.8</span>
+<span class="s0">#1</span>
+<span class="s1">help(</span><span class="s2">&quot;modules&quot;</span><span class="s1">)</span>
+
+<span class="s0">#2</span>
+<span class="s1">help(</span><span class="s2">&quot;sched&quot;</span><span class="s1">)</span>
+
+
+</pre>
+</body>
+</html>
